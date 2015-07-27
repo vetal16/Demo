@@ -1,0 +1,43 @@
+
+.root {
+    -fx-base: rgb(100, 100, 100);
+    -fx-background:  rgb(30, 30, 30);
+//-fx-control-inner-background: rgb(230, 230, 230);
+}
+#toolBar{
+    -fx-background-color: rgb(60, 60, 60);
+}
+ 
+.button {
+    -fx-text-fill: white;
+    //-fx-font-family: "Arial Narrow";
+    //-fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.label {
+    //-fx-text-fill: white;
+    //-fx-font-family: "Arial Narrow";
+    //-fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: rgb(50, 50, 50);
+}
+#btnVbox{
+    -fx-background-color: rgb(50, 50, 50);
+}
+#vboximageProperty{
+    -fx-background-color: rgb(40, 40, 40);
+}
+#btnNegative{
+    -fx-background-color: rgb(50, 50, 50);
+}
+#vboxDCT{
+    -fx-background-color: rgb(50, 50, 50);
+}
+
